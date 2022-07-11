@@ -1,0 +1,5 @@
+subscriptionCategory,subscriptionName,subscriptionType,subscriptionDescription,quantity,offerQty,serviceQty,expiryDays,basePriceInPound,priorityCostInPound,taxInPercentage,smsQty
+POSTCODE,20 months,STANDARD,This is subscription for 20 months,20,1,25,84,75,50,5,100
+POSTCODE,6 months,STANDARD,This is subscription for 6 months,35,2,50,168,135,50,10,200
+POSTCODE,9 months,STANDARD,This is subscription for 9 months,60,3,75,252,425,50,15,500
+POSTCODE,12 months,STANDARD,This is subscription for 12 months,100,4,100,336,900,50,20,1000

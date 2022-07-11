@@ -1,0 +1,13 @@
+subscriptionCategory,subscriptionName,subscriptionType,subscriptionDescription,quantity,serviceQty,expiryDays,basePriceInPound,priorityCostInPound,taxInPercentage
+POSTCODE,3 months,CUSTOM,This is subscription for 3 months,20,25,84,120,50,6
+POSTCODE,6 months,CUSTOM,This is subscription for 6 months,35,50,168,267,150,12
+POSTCODE,9 months,CUSTOM,This is subscription for 9 months,60,75,252,450,250,13
+POSTCODE,12 months,CUSTOM,This is subscription for 12 months,100,100,336,710,350,19
+CITY,3 months,CUSTOM,This is subscription for 3 months,10,25,84,245,50,6
+CITY,6 months,CUSTOM,This is subscription for 6 months,25,50,168,367,150,12
+CITY,9 months,CUSTOM,This is subscription for 9 months,50,75,252,550,250,13
+CITY,12 months,CUSTOM,This is subscription for 12 months,90,100,336,809,350,19
+REGION,3 months,CUSTOM,This is subscription for 3 months,30,25,84,350,50,6
+REGION,6 months,CUSTOM,This is subscription for 6 months,45,50,168,460,150,12
+REGION,9 months,CUSTOM,This is subscription for 9 months,70,75,252,670,250,13
+REGION,12 months,CUSTOM,This is subscription for 12 months,110,100,336,911,350,19
