@@ -1,0 +1,13 @@
+
+#environment
+.env
+
+#com
+package-lock.json
+node_modules/
+dist
+#assets
+img/
+
+#dist
+dist

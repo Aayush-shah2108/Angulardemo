@@ -1,0 +1,417 @@
+/* You can add global styles to this file, and also import other style files */
+
+* :focus {
+    outline: none;
+}
+
+.text-white {
+    color: #fff;
+}
+
+.form-group {
+    margin-bottom: 1rem;
+}
+
+.form-group label {
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.m-link {
+    color: #2d80c0 !important;
+}
+
+/* @media screen and (max-width: 991px) {
+    .form-control {
+        margin-bottom: 1.5rem;
+    }
+} */
+
+/* .w-90 {
+    min-width: 90px;
+} */
+
+.b-select-width {
+    width: 200px;
+}
+
+.btn {
+    padding: .85rem 1.5rem !important;
+    /* font-size: 14px; */
+    /* font-weight: 500; */
+}
+
+.nav.nav-pills .nav-link {
+    background: #fff;
+    border: 1px solid #ddd;
+    border-right: none;
+    border-radius: 0;
+    color: #000;
+    font-size: 14px;
+    letter-spacing: 0.5px;
+}
+
+.nav.nav-pills .nav-link.active {
+    color: #fff;
+    background-color: #2d80c0;
+    border: 1px solid #79aed7;
+}
+
+.nav.nav-pills .nav-item {
+    margin-left: 0;
+}
+
+.nav.nav-pills .nav-item:last-child .nav-link {
+    border-right: 1px solid #ddd;
+}
+
+ngb-rating span {
+    font-size: 40px;
+    line-height: 40px;
+    margin: 10px 5px 20px 0;
+}
+
+textarea {
+    resize: none;
+}
+
+.row {
+    margin-left: -10px;
+    margin-right: -10px;
+}
+
+[class*="col-"] {
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.m-portlet .m-portlet__head {
+    padding: 0 1.5rem;
+    height: 4.5rem;
+}
+
+.m-portlet .m-portlet__body {
+    padding: 2rem 1.5rem;
+}
+
+.m-checkbox-list .m-checkbox {
+    margin-right: 40px;
+    margin-bottom: 15px !important;
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.m-checkbox-list .title {
+    font-size: 14px;
+    font-weight: 500;
+    margin-bottom: 5px;
+}
+
+.m-checkbox.m-checkbox--disabled {
+    color: #bbb;
+}
+
+.bootstrap-select>.dropdown-toggle {
+    padding: 0.75rem !important;
+}
+
+.bootstrap-select>.dropdown-toggle.btn-light {
+    border-color: #ddd;
+}
+
+.col-form-label .m-radio>span {
+    top: -1px;
+}
+
+@media screen and (max-width: 991px) {
+    .col-form-label {
+        padding-top: 0;
+    }
+
+    .nav.nav-pills .nav-link {
+        border-right: 1px solid #ddd;
+    }
+
+    .btn {
+        font-size: 13px;
+        padding: 0.6rem;
+    }
+
+    .w-90 {
+        min-width: 60px;
+    }
+}
+
+@media screen and (max-width: 575px) {
+    .nav-responsive .nav-item {
+        -webkit-box-flex: 1;
+        -ms-flex: 1 1 auto;
+        flex: 1 1 auto;
+        text-align: center;
+    }
+}
+
+input.form-control {
+    font-size: 1.2rem;
+    padding: 0.65rem 0.75rem !important;
+}
+
+@media screen and (max-width: 1440px) {
+    .form-control {
+        font-size: 1.1rem;
+    }
+}
+
+.custom-file-label {
+    padding: .85rem 1rem;
+}
+
+.m-aside-menu .m-menu__nav>.m-menu__item>.m-menu__heading .m-menu__link-text,
+.m-aside-menu .m-menu__nav>.m-menu__item>.m-menu__link .m-menu__link-text {
+    font-size: 15px;
+}
+
+.m-aside-menu .m-menu__nav>.m-menu__item .m-menu__submenu .m-menu__item>.m-menu__heading .m-menu__link-text,
+.m-aside-menu .m-menu__nav>.m-menu__item .m-menu__submenu .m-menu__item>.m-menu__link .m-menu__link-text {
+    font-size: 14px;
+}
+
+.m-nav .m-nav__item>.m-nav__link .m-nav__link-text {
+    font-size: 15px;
+}
+
+.m-subheader .m-subheader__title {
+    font-size: 1.35rem;
+}
+
+.m-subheader .m-subheader__title.m-subheader__title--separator {
+    border-right: 1px solid #ddd;
+}
+
+.m-aside-menu .m-menu__nav>.m-menu__item>.m-menu__heading .m-menu__ver-arrow,
+.m-aside-menu .m-menu__nav>.m-menu__item>.m-menu__link .m-menu__ver-arrow {
+    font-size: 1rem;
+}
+
+.list_wrap {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    margin-bottom: 20px;
+}
+
+.list_wrap .icon {
+    width: 25px;
+    text-align: center;
+}
+
+.list_wrap .fa {
+    font-size: 18px;
+}
+
+.rotate {
+    transform: rotate(90deg);
+}
+
+.list_wrap label a {
+    display: block;
+    color: #575962;
+}
+
+.list_wrap label {
+    margin-bottom: 0;
+    margin-left: 20px;
+    font-size: 15px;
+    font-weight: 500;
+}
+
+.m-card-user.m-card-user--skin-dark .m-card-user__details .m-card-user__name {
+    color: #fff;
+}
+
+.m-card-user.m-card-user--skin-dark .m-card-user__details .m-card-user__email {
+    color: #d9dae3 !important;
+}
+
+.m-topbar .m-topbar__nav.m-nav>.m-nav__item>.m-nav__link .m-nav__link-icon>i:before {
+    background: #2d80c0;
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent
+}
+
+.event-images {
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 50px;
+    align-items: flex-start;
+}
+
+.event-images img {
+    width: auto;
+    height: 80px;
+    margin-right: 20px;
+}
+
+.custom-file {
+    width: 180px;
+}
+
+.custom-file .custom-file-label {
+    white-space: nowrap;
+    overflow: hidden;
+}
+
+.bootstrap-select .dropdown-toggle .filter-option-inner {
+    margin-right: 40px;
+}
+
+@media screen and (max-width: 991px) {
+    .event-images {
+        flex-direction: column;
+    }
+
+    .event-images img {
+        margin-bottom: 20px;
+        margin-right: 0;
+    }
+
+    .custom-file {
+        width: 100%;
+    }
+
+}
+
+@media screen and (max-width: 767px) {
+    .m-subheader .m-subheader__title.m-subheader__title--separator {
+        border-right: none;
+    }
+}
+
+.m-checkbox.m-checkbox--focus>input:checked~span {
+    border: 1px solid #2d80c0;
+}
+
+.m-checkbox.m-checkbox--focus>span:after {
+    border: solid #2d80c0;
+}
+
+.m-portlet .m-portlet__foot:not(.m-portlet__no-border) {
+    border-top: 0;
+}
+
+.m-aside-menu .m-menu__nav {
+    padding: 10px 0 30px 0;
+}
+
+.m-login.m-login--1 .m-login__wrapper .m-login__form .m-form__group .form-control {
+    border: 1px solid #ebedf2 !important;
+    border-radius: 0.25rem !important;
+    padding: 0.75rem 1rem !important;
+}
+
+.switch {
+    position: relative;
+    width: 55px;
+    height: 26px;
+    display: inline-block;
+    right: 0;
+}
+
+.switch input {
+    display: none;
+}
+
+.slider {
+    position: absolute;
+    cursor: pointer;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    -webkit-transition: .4s;
+    background-color: rgb(204, 109, 109);
+    transition: .4s;
+}
+
+.slider:before {
+    position: absolute;
+    content: "";
+    height: 18px;
+    width: 18px;
+    left: 4px;
+    bottom: 4px;
+    background-color: white;
+    -webkit-transition: .4s;
+    transition: .4s;
+}
+
+input:checked+.slider {
+    background-color: #65b36a;
+}
+
+/* .slider:before {
+      position: absolute;
+      content: "";
+      height: 26px;
+      width: 26px;
+      left: 4px;
+      bottom: 4px;
+      background-color: white;
+      -webkit-transition: .4s;
+      transition: .4s;
+    } */
+input:focus+.slider {
+    box-shadow: 0 0 1px #2196F3;
+}
+
+input:checked+.slider:before {
+    -webkit-transform: translateX(28px);
+    -ms-transform: translateX(28px);
+    transform: translateX(28px);
+}
+
+/*------ ADDED CSS ---------*/
+.on {
+    display: none;
+}
+
+.on,
+.off {
+    color: white;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    top: 50%;
+    left: 50%;
+    font-size: 10px;
+    font-family: Verdana, sans-serif;
+}
+
+input:checked+.slider .on {
+    display: block;
+}
+
+input:checked+.slider .off {
+    display: none;
+}
+
+
+.slider.round {
+    border-radius: 34px;
+    width: 55px;
+
+}
+
+.slider.round:before {
+    border-radius: 50%;
+}
+
+.m-card-profile__pic {
+    position: relative;
+    /* width: 55px; */
+}
+
+.m-card-user .m-card-user__pic img {
+    width: 50px;
+    height: 50px;
+}

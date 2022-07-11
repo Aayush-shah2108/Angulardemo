@@ -1,0 +1,14 @@
+.login-wrap {
+    display: flex;
+    height: 90vh;
+    align-items: center;
+}
+
+.m-login.m-login--1.m-login--signin .m-login__forget-password {
+    display: block !important;
+}
+
+.m-login__forget-password .m-login.m-login--1 .m-login__wrapper .m-login__form .m-form__group .form-control {
+    border: 1px solid #ebedf2 !important;
+    border-radius: 0.25rem !important;
+}

@@ -1,0 +1,5 @@
+subscriptionCategory,subscriptionName,subscriptionType,subscriptionDescription,quantity,offerQty,expiryDays,basePriceInPound,priorityCostInPound,taxInPercentage
+POSTCODE,3 months,OFFER,This is subscription for 3 months,20,1,84,330,50,6
+POSTCODE,6 months,OFFER,This is subscription for 6 months,35,2,168,450,150,12
+POSTCODE,9 months,OFFER,This is subscription for 9 months,60,3,252,650,250,13
+POSTCODE,12 months,OFFER,This is subscription for 12 months,100,4,336,910,350,19

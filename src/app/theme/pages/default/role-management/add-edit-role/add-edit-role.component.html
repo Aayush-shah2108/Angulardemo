@@ -1,0 +1,50 @@
+<!-- BEGIN: Subheader -->
+<div class="m-subheader" appunwraptag="">
+	<div class="d-flex align-items-center">
+		<div class="mr-auto">
+			<h3 class="m-subheader__title m-subheader__title--separator">Role Management</h3>
+		</div>
+	</div>
+</div>
+<!-- END: Subheader -->
+<div class="m-content">
+	<div class="row">
+		<div class="col-xl-12">
+			<div class="m-portlet m-portlet--full-height">
+				<div class="m-portlet__head">
+					<div class="m-portlet__head-caption">
+						<div class="m-portlet__head-title">
+							<H3 class="m-portlet__head-text" *ngIf="!roleForm.value._id"> Add New Role </H3>
+							<H3 class="m-portlet__head-text" *ngIf="roleForm.value._id"> Edit Role </H3>
+						</div>
+					</div>
+				</div>
+
+				<div class="m-portlet__body">
+					<form [formGroup]="roleForm">
+						<div class="row">
+							<div class="col-lg-6">
+								<div class="form-group">
+									<label>Role Id</label>
+									<input type="text" class="form-control m-input" placeholder="enter unique role id" formControlName="roleId" [ngClass]="{brdrRed: formSubmitted&&roleForm.controls.roleId.invalid}">
+								</div>
+							</div>
+						</div>
+						<div class="row">
+							<div class="col-lg-6">
+								<div class="form-group">
+									<label>Role Name</label>
+									<input type="text" class="form-control m-input" placeholder="enter role name here" formControlName="roleName" [ngClass]="{brdrRed: formSubmitted&&roleForm.controls.roleName.invalid}">
+								</div>
+							</div>
+						</div>
+						<div class="d-flex w-100 justify-content-center mt-3">
+							<button class="btn btn-primary w-90" (click)="saveRole()">Save</button>
+							<button class="btn btn-danger w-90 ml-4" [routerLink]="['/role-management']" (click)="spinner.show()">Cancel</button>
+						</div>
+					</form>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
